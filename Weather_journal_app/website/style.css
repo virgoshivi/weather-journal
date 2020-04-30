@@ -1,0 +1,102 @@
+body {
+    background: #fffff8;
+    font-family: 'Fredoka One', serif;
+}
+
+#app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 30px;
+    background: #71b8c8;
+    color: #e5f3f2;
+    justify-content: center;
+    font-size: 30px;
+ }
+
+.holder {
+    color: white;
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#feelings{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label, #entryHolder {
+    display: block;
+    font-size: 23px;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    height: 40px;
+    width: 320px;
+    background: #bfd8dc;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    width: 120px;
+    height: 57px;
+    background: #5a8ca3;
+    color: #e5f3f2;
+    font-size: 24px;
+    box-shadow: 2px 4px 5px #444;
+    border: none;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+textarea {
+    background: #bfd8dc;
+    height: 120px;
+    width: 320px;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #9e9999;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9e9999;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #9e9999;
+} 
